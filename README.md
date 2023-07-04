@@ -1,5 +1,5 @@
 # businessrecommender
-- the model file
-  - this is the model file trained using basic tensorflow recommender
-- the notebook to download the model file and run the test : getyelprankingusingpipeconeandrecommender.ipynb
-  - you will need the api key and env to run this 
+- the model file : businessexport-20230626T234723Z-001.zip
+  - this is the model file trained using pointwise tensorflow recommender with Yelp smaple data
+- the notebook to download the model and retrieve and then rank the vendors : getyelprankingusingpipeconeandrecommender.ipynb
+  - you will need the Pipecone api key and env to run this 

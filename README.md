@@ -1,5 +1,12 @@
 # businessrecommender
-- the model file : businessexport-20230626T234723Z-001.zip
-  - this is the model file trained using pointwise tensorflow recommender with Yelp smaple data
-- the notebook to download the model and retrieve and then rank the vendors : getyelprankingusingpipeconeandrecommender.ipynb
-  - you will need the Pipecone api key and env to run this 
+- Bellow is the summary of files.  To run this, you will need api key / env to pipecone, and download yelp dataset to google collab.  Happy coding  
+  - the yelp sample dataset is from https://www.yelp.com/dataset
+  - notebook to parse the yelp data files and inject into pipecone vector db
+    - yelprecommender_pipeconeinjection.ipynb
+  - notebook to train ranking model using pointwise mse loss and save the model for download
+    - yelpbusiness_ranking_using_mse_loss.ipynb
+  - the ranking model in zip : businessexport-20230626T234723Z-001.zip
+    - this is the model trained using pointwise tensorflow recommender with Yelp sample data
+  - the notebook to download the model and retrieve and then rank the vendors 
+    - getyelprankingusingpipeconeandrecommender.ipynb
+    - you will need the Pipecone api key and env to run this 
